@@ -1,6 +1,6 @@
 #!/bin/bash
 
-common_path="/usr/share/sounds/freedesktop/stereo/"
+common_path="/your/dir/path"
 # Paths to your sound files
 CHARGER_CONNECTED_SOUND="$common_path"power-plug.oga
 CHARGER_REMOVED_SOUND="$common_path"power-unplug.oga

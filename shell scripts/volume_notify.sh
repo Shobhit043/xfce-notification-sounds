@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to your notification sound file
-SOUND_FILE="/usr/share/sounds/freedesktop/stereo/audio-volume-change.oga"
+SOUND_FILE="/your/dir/path/audio-volume-change.oga"
 
 # Function to play sound
 play_sound() {
