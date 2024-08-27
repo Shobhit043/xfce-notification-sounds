@@ -23,7 +23,7 @@ Follow these steps to set up the repository and make all shell scripts executabl
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/xfce-notification-sounds.git
+    git clone https://github.com/Shobhit043/xfce-notification-sounds.git
     cd xfce-notification-sounds
     ```
 
