@@ -44,23 +44,32 @@ Follow these steps to set up the repository and make all shell scripts executabl
     ```bash
     mv ../notification\ sounds/* /path/to/your/sound/directory/
     ```
+    
+5. **Set/Edit paths in battery_monitor and volume_notify scripts to appropriate location where your sound files are present**
 
-5. **Run the scripts as needed**:
+## Set Up
+Once all the files are made executable and sound files stored in your directory of choice we can move forward and set up scripts startup.<br>
+**Please note that there are 3 scripts and all of them would be added to session and startup in same fashion and i want only demonstrate it for single script**
 
-    ```bash
-    ./battery_monitor
-    ./volume_notify
-    ./killing-script
-    ```
+1. Search for **session and startup** in your search bar and open it
+2. The window would look like this: <br><br>
+   ![can't display screenshot](https://raw.githubusercontent.com/Shobhit043/xfce-notification-sounds/main/screenshots/session%20and%20startups.png)<br>
 
-## Usage
+3. Click on **Add** option which would option this type of window: <br><br>
+   ![can't display screenshot](https://raw.githubusercontent.com/Shobhit043/xfce-notification-sounds/main/screenshots/application%20window.png)<br>
 
-- **`battery_monitor`**: Monitors the battery status and plays a notification sound when the battery is low or fully charged and if charger is plugged or unplugged.
-- **`volume_notify`**: Plays a sound notification when the system volume changes.
-- **`killing-script`**: Utility script for managing processes.
+4. Fill the application name and discription and after filling, it would look like this: <br><br>
+   ![can't display screenshot](https://raw.githubusercontent.com/Shobhit043/xfce-notification-sounds/main/screenshots/appication%20window(with%20info).png)<br>
+5. Click on command upload button and from the upload window locate and select the script which you want to add for example battery_monitor.sh <br><br>
+   ![can't display screenshot](https://raw.githubusercontent.com/Shobhit043/xfce-notification-sounds/main/screenshots/command%20upload%20window.png)<br>
 
-Feel free to modify the scripts according to your needs.
+6. Set **Trigger** to **log in** <br>
+   **Note** - when setting the killing script set **Trigger** to log out because we would want to close these applications/scripts whenever use log out and prevent multiple stratup of these scripts at each log in  <br><br>
+
+7. Click on **OK**. <br><br>
+
+## To start applications
+After you have added all 3 scripts to startup and session to start the appilcations you would just need to **log out** and then **log in** again or you can also reboot.
 
 ## Contributing
-
 Contributions are welcome! Please open an issue or submit a pull request for any changes or additions.
