@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of script names to kill
-SCRIPTS=("battery_monitor" "volume_notify")
+SCRIPTS=("battery-monitor" "charger-connection")
 
 for SCRIPT in "${SCRIPTS[@]}"; do
   # Kill the processes directly without checking

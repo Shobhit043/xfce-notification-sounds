@@ -12,8 +12,8 @@ This repository contains notification sound files and shell scripts for various 
   - `power-unplug.oga`
 
 - **shell scripts/**: This folder contains shell scripts for monitoring and notifications.
-  - `battery_monitor`
-  - `volume_notify`
+  - `battery-monitor`
+  - `charger-connection`
   - `killing-script`
 
 ## Installation
@@ -36,7 +36,7 @@ Follow these steps to set up the repository and make all shell scripts executabl
 3. **Make all shell scripts executable**:
 
     ```bash
-    chmod +x battery_monitor volume_notify killing-script
+    chmod +x battery-monitor charger-connection killing-script
     ```
 
 4. **Move the sound files to the appropriate directory (if needed)**:
@@ -45,7 +45,7 @@ Follow these steps to set up the repository and make all shell scripts executabl
     mv ../notification\ sounds/* /path/to/your/sound/directory/
     ```
     
-5. **Set/Edit paths in battery_monitor and volume_notify scripts to appropriate location where your sound files are present**
+5. **Set/Edit paths in battery-monitor and charger-connection scripts to appropriate location where your sound files are present**
 
 ## Set Up
 Once all the files are made executable and sound files stored in your directory of choice we can move forward and set up scripts startup.<br>
@@ -60,7 +60,7 @@ Once all the files are made executable and sound files stored in your directory 
 
 4. Fill the application name and discription and after filling, it would look like this: <br><br>
    ![can't display screenshot](https://raw.githubusercontent.com/Shobhit043/xfce-notification-sounds/main/screenshots/appication%20window(with%20info).png)<br>
-5. Click on command upload button and from the upload window locate and select the script which you want to add for example battery_monitor.sh <br><br>
+5. Click on command upload button and from the upload window locate and select the script which you want to add for example battery-monitor.sh <br><br>
    ![can't display screenshot](https://raw.githubusercontent.com/Shobhit043/xfce-notification-sounds/main/screenshots/command%20upload%20window.png)<br>
 
 6. Set **Trigger** to **log in** <br>
